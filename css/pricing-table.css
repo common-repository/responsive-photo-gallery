@@ -1,0 +1,163 @@
+/* Copyright 2013 Soundarapandian
+ * Pricing table built on Twitter Bootstrap.
+ */
+
+body {
+  /* Below styles are used only for pricing table demo purpose.
+   * and these styles are not required to integrate the pricing table
+   * into your application */
+  padding-bottom: 50px;
+  background-image: url('');
+}
+
+/*
+ * =================== Start pricing table =====================*/
+
+.pricing-table .plan {
+  border-radius: 5px;
+  text-align: center;
+  background-color: #f3f3f3;
+  -moz-box-shadow: 0 0 6px 2px #b0b2ab;
+  -webkit-box-shadow: 0 0 6px 2px #b0b2ab;
+  box-shadow: 0 0 6px 2px #b0b2ab;
+}
+
+.pricing-table .plan:hover {
+  background-color: #fff;
+  -moz-box-shadow: 0 0 12px 3px #b0b2ab;
+  -webkit-box-shadow: 0 0 12px 3px #b0b2ab;
+  box-shadow: 0 0 12px 3px #b0b2ab;
+}
+
+.pricing-table .plan .plan-name {
+  padding: 20px;
+  color: #fff;
+  background-color: #5e5f59;
+  -moz-border-radius: 5px 5px 0 0;
+  -webkit-border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
+}
+
+.pricing-table .plan .plan-name span {
+  font-size: 20px;
+}
+
+.pricing-table .plan ul {
+  list-style: none;
+  margin: 0;
+  -moz-border-radius: 0 0 5px 5px;
+  -webkit-border-radius: 0 0 5px 5px;
+  border-radius: 0 0 5px 5px;
+}
+
+.pricing-table .plan ul li.plan-feature {
+  padding: 15px 10px;
+  border-top: 1px solid #c5c8c0;
+}
+
+.pricing-three-column {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.pricing-variable-height .plan {
+  float: none;
+  margin-left: 2%;
+  vertical-align: bottom;
+  display: inline-block;
+  /* Support for inline-block in IE7 */
+  zoom:1;
+  *display:inline;
+}
+
+.plan-mouseover .plan-name {
+  background-color: #4e9a06 !important;
+}
+
+.btn-plan-select {
+  padding: 8px 25px;
+  font-size: 18px;
+}
+
+/*
+ * =================== End pricing table =====================*/
+ 
+ 
+ /*
+ * =================== Mobile css for table =====================*/
+ @media (max-width: 320px) {
+  .pricing-three-column {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .pricing-table .plan {
+    margin-bottom: 20px;
+  }
+  .pricing-variable-height .plan {
+    margin-left: 0;
+  }
+  .pricing-three-column {
+    width: 100%;
+  }
+}
+
+.pricing-table .col-md-6.col-xs-4 h2{
+        font-weight: bold;font-size: 26px;padding-top: 20px;padding-bottom: 20px; text-align:center;
+    }
+    .pricing-table .col-md-6.col-xs-4 img{
+        border: 1px solid #e3e3e3;width:100%; background: #f7f7f7;padding:10px;
+    }
+    .plan-name.bt-pro{
+        padding-top:40px; text-align: center;float:left;width:100%;
+    }
+    .plan-name.bt-pro h2{
+        font-weight: bold; font-size: 36px; padding-top: 30px; padding-bottom: 10px;
+    }
+    .plan-name.bt-pro h6{
+        font-size: 22px; padding-top: 10px; padding-bottom: 10px;
+    }
+    .purchase_btn_div{
+        margin-top:20px;text-align: center;
+    }
+    .purchase_btn_div a{
+        margin-right:10px;
+    }
+    .row-fluid.pricing-table.pricing-three-column{
+        margin-top: 10px;
+    }
+    .plan-feature a{
+        font-size: large; font-weight: bolder;
+    }
+    .col-md-6 {
+        width: 46% !important;
+    }
+
+    .col-md-4 {
+        width: 30.333333% !important;
+    }
+
+    .pricing-table .plan ul li.plan-feature {
+        padding: 8px !important;
+    }
+
+    .ap .plan-name {
+        background-color: #1E8CBE !important;
+    }
+
+    .bp .plan-name {
+        background-color: #1E8CBE !important;
+    }
+
+    .cp .plan-name {
+        background-color: #1E8CBE !important;
+    }
+
+    li {
+        font-size: larger !important;
+    }
+
+    .row-fluid .span4 {
+        width: 30.624% !important;
+    }
